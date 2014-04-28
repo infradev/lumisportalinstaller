@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources>
+    <local-tx-datasource>
+        <jndi-name>{{datasourceName}}</jndi-name>
+        <driver-class>{{driverClass}}</driver-class>
+        <connection-url>{{databaseURL}}</connection-url>
+        <min-pool-size>5</min-pool-size>
+        <max-pool-size>100</max-pool-size>
+        <!-- para usar o login e senha diretamente no arquivo do datasource, informar o username e password -->
+        <user-name>{{databaseUsername}}</user-name>
+        <password>{{databasePassword}}</password>
+        {{connectionValidator}}
+        <metadata>
+            <type-mapping>{{databaseType}}</type-mapping>
+        </metadata>
+    </local-tx-datasource>
+</datasources>

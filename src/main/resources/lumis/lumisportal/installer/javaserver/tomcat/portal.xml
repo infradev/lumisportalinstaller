@@ -1,0 +1,8 @@
+<Context path="/{{contextName}}" docBase="{{contextRoot}}" crossContext="true">
+    <Parameter name="lumisDataPath" value="{{lumisDataPath}}" override="false"/>
+    <Resource name="{{datasourceName}}" type="javax.sql.DataSource"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              auth="Container" driverClassName="{{driverClass}}"
+              url="{{databaseURL}}"
+              username="{{databaseUsername}}" password="{{databasePassword}}" />
+</Context>
