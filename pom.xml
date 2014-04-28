@@ -3,7 +3,7 @@
 
 	<groupId>infradev.lumis</groupId>
 	<artifactId>lumisportalinstaler</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 
 	<name>lumisportalinstaller</name>
 	<description>An installer to Lumis Portal</description>
@@ -39,7 +39,7 @@
 		<url>https://github.com/infradev/lumisportalinstaller</url>
 		<connection>scm:git:https://github.com/infradev/lumisportalinstaller.git</connection>
 		<developerConnection>scm:git:git@github.com:infradev/lumisportalinstaller.git</developerConnection>
-		<tag>1.0.0</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 	<distributionManagement>
